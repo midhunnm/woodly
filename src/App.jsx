@@ -4,6 +4,7 @@ import { Route, Routes } from 'react-router-dom'
 import Login from './Components/login'
 import Signup from './Components/signup'
 import './App.css'
+import Cart from './Components/Cart'
 const App = () => {
 
   return (
@@ -12,6 +13,7 @@ const App = () => {
       <Routes>
         <Route path='login' element={<Login />} />
         <Route path='signup' element={<Signup />} />
+             <Route path='Cart' element={<Cart />} />
       </Routes>
       <div className="image-container">
         <img

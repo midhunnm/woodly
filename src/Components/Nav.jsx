@@ -22,6 +22,9 @@ const Nav = () => {
             <Link to="/signup">
               <Button className="nav-btn">Signup</Button>
             </Link>
+             <Link to="/Cart">
+              <Button className="nav-btn">Cart</Button>
+            </Link>
           </Stack>
         </Toolbar>
       </AppBar>
